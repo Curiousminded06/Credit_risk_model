@@ -2,7 +2,7 @@ import streamlit as st
 from prediction_helper import predict  # Ensure this is correctly linked to your prediction_helper.py
 
 st.set_page_config(page_title="Credit Risk Modelling", page_icon="📊", layout="wide")
-st.title("📊 Lauki Finance: Credit Risk Modelling")
+st.title("📊 Credit Risk Modelling")
 st.markdown("Enter applicant details below to assess loan default risk.")
 
 # Input Section
@@ -81,5 +81,6 @@ if st.button('Calculate Risk', type='primary'):
                 st.error(f"An error occurred: {str(e)}")
 
 st.markdown("---")
+
 
 
